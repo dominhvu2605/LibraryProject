@@ -47,7 +47,7 @@ export const SearchBooksPage = () => {
           author: responseData[key].author,
           description: responseData[key].description,
           copies: responseData[key].copies,
-          copiesAvailabel: responseData[key].copiesAvailabel,
+          copiesAvailable: responseData[key].copiesAvailable,
           category: responseData[key].category,
           img: responseData[key].img,
         });
